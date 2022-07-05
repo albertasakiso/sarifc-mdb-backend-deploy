@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fakestores",
+  "info": {
+    "singularName": "fakestore",
+    "pluralName": "fakestores",
+    "displayName": "Fakestore"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "year": {
+      "type": "date"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
